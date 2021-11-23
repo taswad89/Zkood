@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <cartinformation_config>
+            <general>
+                <enable>0</enable>
+                <disable_for_guest>0</disable_for_guest>
+            </general>
+        </cartinformation_config>
+    </default>
+</config>

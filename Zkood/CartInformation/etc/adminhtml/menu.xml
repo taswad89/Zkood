@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="Zkood::top_level" title="Zkood" module="Zkood_CartInformation" sortOrder="9999" resource="Magento_Backend::content"/>
+		<add id="Zkood_CartInformation::cartinformation_config" title="CartInformation" module="Zkood_CartInformation" sortOrder="9999" parent="Zkood::top_level" action="adminhtml/system_config/edit/section/cartinformation_config" resource="Zkood_CartInformation::cartinformation_config"/>
+	</menu>
+</config>
